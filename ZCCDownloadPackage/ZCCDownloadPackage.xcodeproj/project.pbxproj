@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4500BD3D1DE2CC3100AB9F40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4500BD3C1DE2CC3100AB9F40 /* main.m */; };
+		4500BD401DE2CC3100AB9F40 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4500BD3F1DE2CC3100AB9F40 /* AppDelegate.m */; };
+		4500BD431DE2CC3100AB9F40 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4500BD421DE2CC3100AB9F40 /* ViewController.m */; };
+		4500BD461DE2CC3100AB9F40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4500BD441DE2CC3100AB9F40 /* Main.storyboard */; };
+		4500BD481DE2CC3100AB9F40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4500BD471DE2CC3100AB9F40 /* Assets.xcassets */; };
+		4500BD4B1DE2CC3100AB9F40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4500BD491DE2CC3100AB9F40 /* LaunchScreen.storyboard */; };
+		4500BD561DE2CC3200AB9F40 /* ZCCDownloadPackageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4500BD551DE2CC3200AB9F40 /* ZCCDownloadPackageTests.m */; };
+		4500BD611DE2CC3200AB9F40 /* ZCCDownloadPackageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4500BD601DE2CC3200AB9F40 /* ZCCDownloadPackageUITests.m */; };
+		4500BD781DE2F36500AB9F40 /* ZCCDownloadPackage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4500BD771DE2F36500AB9F40 /* ZCCDownloadPackage.m */; };
+		83F99ACD3F0A97488879D795 /* Pods_ZCCDownloadPackage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F27918D8295E376232242EB0 /* Pods_ZCCDownloadPackage.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4500BD521DE2CC3200AB9F40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4500BD301DE2CC3100AB9F40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4500BD371DE2CC3100AB9F40;
+			remoteInfo = ZCCDownloadPackage;
+		};
+		4500BD5D1DE2CC3200AB9F40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4500BD301DE2CC3100AB9F40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4500BD371DE2CC3100AB9F40;
+			remoteInfo = ZCCDownloadPackage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10ECF3EECCA0511B0A0231EA /* Pods-ZCCDownloadPackage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZCCDownloadPackage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZCCDownloadPackage/Pods-ZCCDownloadPackage.debug.xcconfig"; sourceTree = "<group>"; };
+		4500BD381DE2CC3100AB9F40 /* ZCCDownloadPackage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZCCDownloadPackage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4500BD3C1DE2CC3100AB9F40 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4500BD3E1DE2CC3100AB9F40 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4500BD3F1DE2CC3100AB9F40 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4500BD411DE2CC3100AB9F40 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4500BD421DE2CC3100AB9F40 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4500BD451DE2CC3100AB9F40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4500BD471DE2CC3100AB9F40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4500BD4A1DE2CC3100AB9F40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4500BD4C1DE2CC3100AB9F40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4500BD511DE2CC3200AB9F40 /* ZCCDownloadPackageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZCCDownloadPackageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4500BD551DE2CC3200AB9F40 /* ZCCDownloadPackageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZCCDownloadPackageTests.m; sourceTree = "<group>"; };
+		4500BD571DE2CC3200AB9F40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4500BD5C1DE2CC3200AB9F40 /* ZCCDownloadPackageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZCCDownloadPackageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4500BD601DE2CC3200AB9F40 /* ZCCDownloadPackageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZCCDownloadPackageUITests.m; sourceTree = "<group>"; };
+		4500BD621DE2CC3200AB9F40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4500BD761DE2F36500AB9F40 /* ZCCDownloadPackage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCCDownloadPackage.h; sourceTree = "<group>"; };
+		4500BD771DE2F36500AB9F40 /* ZCCDownloadPackage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCCDownloadPackage.m; sourceTree = "<group>"; };
+		8C4A030C264CD9F1AF1C171D /* Pods-ZCCDownloadPackage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZCCDownloadPackage.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZCCDownloadPackage/Pods-ZCCDownloadPackage.release.xcconfig"; sourceTree = "<group>"; };
+		F27918D8295E376232242EB0 /* Pods_ZCCDownloadPackage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZCCDownloadPackage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4500BD351DE2CC3100AB9F40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83F99ACD3F0A97488879D795 /* Pods_ZCCDownloadPackage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4500BD4E1DE2CC3200AB9F40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4500BD591DE2CC3200AB9F40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1ECAF0CA6E82A3F40D9AC0A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F27918D8295E376232242EB0 /* Pods_ZCCDownloadPackage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4500BD2F1DE2CC3100AB9F40 = {
+			isa = PBXGroup;
+			children = (
+				4500BD3A1DE2CC3100AB9F40 /* ZCCDownloadPackage */,
+				4500BD541DE2CC3200AB9F40 /* ZCCDownloadPackageTests */,
+				4500BD5F1DE2CC3200AB9F40 /* ZCCDownloadPackageUITests */,
+				4500BD391DE2CC3100AB9F40 /* Products */,
+				72356F6789849466F96A0065 /* Pods */,
+				1ECAF0CA6E82A3F40D9AC0A0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4500BD391DE2CC3100AB9F40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4500BD381DE2CC3100AB9F40 /* ZCCDownloadPackage.app */,
+				4500BD511DE2CC3200AB9F40 /* ZCCDownloadPackageTests.xctest */,
+				4500BD5C1DE2CC3200AB9F40 /* ZCCDownloadPackageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4500BD3A1DE2CC3100AB9F40 /* ZCCDownloadPackage */ = {
+			isa = PBXGroup;
+			children = (
+				4500BD751DE2F36500AB9F40 /* ZCCDownloadPackage */,
+				4500BD3E1DE2CC3100AB9F40 /* AppDelegate.h */,
+				4500BD3F1DE2CC3100AB9F40 /* AppDelegate.m */,
+				4500BD411DE2CC3100AB9F40 /* ViewController.h */,
+				4500BD421DE2CC3100AB9F40 /* ViewController.m */,
+				4500BD441DE2CC3100AB9F40 /* Main.storyboard */,
+				4500BD471DE2CC3100AB9F40 /* Assets.xcassets */,
+				4500BD491DE2CC3100AB9F40 /* LaunchScreen.storyboard */,
+				4500BD4C1DE2CC3100AB9F40 /* Info.plist */,
+				4500BD3B1DE2CC3100AB9F40 /* Supporting Files */,
+			);
+			path = ZCCDownloadPackage;
+			sourceTree = "<group>";
+		};
+		4500BD3B1DE2CC3100AB9F40 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4500BD3C1DE2CC3100AB9F40 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4500BD541DE2CC3200AB9F40 /* ZCCDownloadPackageTests */ = {
+			isa = PBXGroup;
+			children = (
+				4500BD551DE2CC3200AB9F40 /* ZCCDownloadPackageTests.m */,
+				4500BD571DE2CC3200AB9F40 /* Info.plist */,
+			);
+			path = ZCCDownloadPackageTests;
+			sourceTree = "<group>";
+		};
+		4500BD5F1DE2CC3200AB9F40 /* ZCCDownloadPackageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4500BD601DE2CC3200AB9F40 /* ZCCDownloadPackageUITests.m */,
+				4500BD621DE2CC3200AB9F40 /* Info.plist */,
+			);
+			path = ZCCDownloadPackageUITests;
+			sourceTree = "<group>";
+		};
+		4500BD751DE2F36500AB9F40 /* ZCCDownloadPackage */ = {
+			isa = PBXGroup;
+			children = (
+				4500BD761DE2F36500AB9F40 /* ZCCDownloadPackage.h */,
+				4500BD771DE2F36500AB9F40 /* ZCCDownloadPackage.m */,
+			);
+			path = ZCCDownloadPackage;
+			sourceTree = "<group>";
+		};
+		72356F6789849466F96A0065 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				10ECF3EECCA0511B0A0231EA /* Pods-ZCCDownloadPackage.debug.xcconfig */,
+				8C4A030C264CD9F1AF1C171D /* Pods-ZCCDownloadPackage.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4500BD371DE2CC3100AB9F40 /* ZCCDownloadPackage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4500BD651DE2CC3200AB9F40 /* Build configuration list for PBXNativeTarget "ZCCDownloadPackage" */;
+			buildPhases = (
+				65F755DAC68F5D998AF466BA /* [CP] Check Pods Manifest.lock */,
+				4500BD341DE2CC3100AB9F40 /* Sources */,
+				4500BD351DE2CC3100AB9F40 /* Frameworks */,
+				4500BD361DE2CC3100AB9F40 /* Resources */,
+				0B03B40F3D681FD549A30AA5 /* [CP] Embed Pods Frameworks */,
+				323899A9AF3688E4BFB74558 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZCCDownloadPackage;
+			productName = ZCCDownloadPackage;
+			productReference = 4500BD381DE2CC3100AB9F40 /* ZCCDownloadPackage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4500BD501DE2CC3200AB9F40 /* ZCCDownloadPackageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4500BD681DE2CC3200AB9F40 /* Build configuration list for PBXNativeTarget "ZCCDownloadPackageTests" */;
+			buildPhases = (
+				4500BD4D1DE2CC3200AB9F40 /* Sources */,
+				4500BD4E1DE2CC3200AB9F40 /* Frameworks */,
+				4500BD4F1DE2CC3200AB9F40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4500BD531DE2CC3200AB9F40 /* PBXTargetDependency */,
+			);
+			name = ZCCDownloadPackageTests;
+			productName = ZCCDownloadPackageTests;
+			productReference = 4500BD511DE2CC3200AB9F40 /* ZCCDownloadPackageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4500BD5B1DE2CC3200AB9F40 /* ZCCDownloadPackageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4500BD6B1DE2CC3200AB9F40 /* Build configuration list for PBXNativeTarget "ZCCDownloadPackageUITests" */;
+			buildPhases = (
+				4500BD581DE2CC3200AB9F40 /* Sources */,
+				4500BD591DE2CC3200AB9F40 /* Frameworks */,
+				4500BD5A1DE2CC3200AB9F40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4500BD5E1DE2CC3200AB9F40 /* PBXTargetDependency */,
+			);
+			name = ZCCDownloadPackageUITests;
+			productName = ZCCDownloadPackageUITests;
+			productReference = 4500BD5C1DE2CC3200AB9F40 /* ZCCDownloadPackageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4500BD301DE2CC3100AB9F40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "翟聪聪公司\U000e名称";
+				TargetAttributes = {
+					4500BD371DE2CC3100AB9F40 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					4500BD501DE2CC3200AB9F40 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4500BD371DE2CC3100AB9F40;
+					};
+					4500BD5B1DE2CC3200AB9F40 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4500BD371DE2CC3100AB9F40;
+					};
+				};
+			};
+			buildConfigurationList = 4500BD331DE2CC3100AB9F40 /* Build configuration list for PBXProject "ZCCDownloadPackage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4500BD2F1DE2CC3100AB9F40;
+			productRefGroup = 4500BD391DE2CC3100AB9F40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4500BD371DE2CC3100AB9F40 /* ZCCDownloadPackage */,
+				4500BD501DE2CC3200AB9F40 /* ZCCDownloadPackageTests */,
+				4500BD5B1DE2CC3200AB9F40 /* ZCCDownloadPackageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4500BD361DE2CC3100AB9F40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4500BD4B1DE2CC3100AB9F40 /* LaunchScreen.storyboard in Resources */,
+				4500BD481DE2CC3100AB9F40 /* Assets.xcassets in Resources */,
+				4500BD461DE2CC3100AB9F40 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4500BD4F1DE2CC3200AB9F40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4500BD5A1DE2CC3200AB9F40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B03B40F3D681FD549A30AA5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZCCDownloadPackage/Pods-ZCCDownloadPackage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		323899A9AF3688E4BFB74558 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZCCDownloadPackage/Pods-ZCCDownloadPackage-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65F755DAC68F5D998AF466BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4500BD341DE2CC3100AB9F40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4500BD431DE2CC3100AB9F40 /* ViewController.m in Sources */,
+				4500BD401DE2CC3100AB9F40 /* AppDelegate.m in Sources */,
+				4500BD3D1DE2CC3100AB9F40 /* main.m in Sources */,
+				4500BD781DE2F36500AB9F40 /* ZCCDownloadPackage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4500BD4D1DE2CC3200AB9F40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4500BD561DE2CC3200AB9F40 /* ZCCDownloadPackageTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4500BD581DE2CC3200AB9F40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4500BD611DE2CC3200AB9F40 /* ZCCDownloadPackageUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4500BD531DE2CC3200AB9F40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4500BD371DE2CC3100AB9F40 /* ZCCDownloadPackage */;
+			targetProxy = 4500BD521DE2CC3200AB9F40 /* PBXContainerItemProxy */;
+		};
+		4500BD5E1DE2CC3200AB9F40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4500BD371DE2CC3100AB9F40 /* ZCCDownloadPackage */;
+			targetProxy = 4500BD5D1DE2CC3200AB9F40 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4500BD441DE2CC3100AB9F40 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4500BD451DE2CC3100AB9F40 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4500BD491DE2CC3100AB9F40 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4500BD4A1DE2CC3100AB9F40 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4500BD631DE2CC3200AB9F40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4500BD641DE2CC3200AB9F40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4500BD661DE2CC3200AB9F40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10ECF3EECCA0511B0A0231EA /* Pods-ZCCDownloadPackage.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZCCDownloadPackage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "----------------.ZCCDownloadPackage";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4500BD671DE2CC3200AB9F40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C4A030C264CD9F1AF1C171D /* Pods-ZCCDownloadPackage.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZCCDownloadPackage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "----------------.ZCCDownloadPackage";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4500BD691DE2CC3200AB9F40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZCCDownloadPackageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "----------------.ZCCDownloadPackageTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZCCDownloadPackage.app/ZCCDownloadPackage";
+			};
+			name = Debug;
+		};
+		4500BD6A1DE2CC3200AB9F40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZCCDownloadPackageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "----------------.ZCCDownloadPackageTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZCCDownloadPackage.app/ZCCDownloadPackage";
+			};
+			name = Release;
+		};
+		4500BD6C1DE2CC3200AB9F40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZCCDownloadPackageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "----------------.ZCCDownloadPackageUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZCCDownloadPackage;
+			};
+			name = Debug;
+		};
+		4500BD6D1DE2CC3200AB9F40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZCCDownloadPackageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "----------------.ZCCDownloadPackageUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZCCDownloadPackage;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4500BD331DE2CC3100AB9F40 /* Build configuration list for PBXProject "ZCCDownloadPackage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4500BD631DE2CC3200AB9F40 /* Debug */,
+				4500BD641DE2CC3200AB9F40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4500BD651DE2CC3200AB9F40 /* Build configuration list for PBXNativeTarget "ZCCDownloadPackage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4500BD661DE2CC3200AB9F40 /* Debug */,
+				4500BD671DE2CC3200AB9F40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4500BD681DE2CC3200AB9F40 /* Build configuration list for PBXNativeTarget "ZCCDownloadPackageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4500BD691DE2CC3200AB9F40 /* Debug */,
+				4500BD6A1DE2CC3200AB9F40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4500BD6B1DE2CC3200AB9F40 /* Build configuration list for PBXNativeTarget "ZCCDownloadPackageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4500BD6C1DE2CC3200AB9F40 /* Debug */,
+				4500BD6D1DE2CC3200AB9F40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4500BD301DE2CC3100AB9F40 /* Project object */;
+}
